@@ -32,6 +32,7 @@ const tic_tac_toe = {
             let winning_sequences_index = this.check_winning_sequences ( this.simbols.options [ this.simbols.turn_index ] );
             if (winning_sequences_index >=0) {
                 this.game_is_over();
+                this.winner();
             } else {
                 this.simbols.change();
             }
@@ -51,6 +52,8 @@ const tic_tac_toe = {
         this.draw();
         this.gameover = false;
     },
+
+    
 
     check_winning_sequences: function(simbol){
         for ( i in this.winning_sequences) {
