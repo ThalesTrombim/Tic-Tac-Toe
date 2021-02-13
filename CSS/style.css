@@ -10,7 +10,7 @@
   
 .game>div {
     border: 6px solid #2c3e50;
-    font-family: Helvetica;
+    font-family:'Press Start 2P', cursive;
     font-weight: bold;
     font-size: 4em;
     display: flex;
@@ -19,5 +19,14 @@
 }
 
 .button {
-    background-color: red;
+    background-color: #34495e;
+    color: #fff;
+    border: 6px solid #2c3e50;
+    font-family:'Press Start 2P', cursive;
+    width: 350px;
+    height: 50px;
+    display: center;
+    font-size:x-large;
+    bottom: 10px;
+    margin:  20px 330px;
 }
